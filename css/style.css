@@ -488,16 +488,21 @@ li{
     gap: 10px;
 }
 .footer-box .footer-follow li a{
+    --ehw-ficon: 30px;
+    width: var(--ehw-ficon);
+    height: var(--ehw-ficon);
     font-size: 20px;
     color: rgba(var(--main-color), 1);
     background: rgba(var(--white-color), 1);
     border-radius: 8px;
     padding: 7px 12px;
     transition: all ease-in-out 0.5s;
+    border: 1px solid transparent;
 }
 .footer-box .footer-follow li a:hover{
     background: rgba(var(--main-color), 1);
     color: #fff;
+    border: 1px solid rgba(var(--white-color), 1);
 }
 .footer-list{
     display: flex;
