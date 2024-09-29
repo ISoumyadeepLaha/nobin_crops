@@ -185,7 +185,7 @@ li{
     padding: 4px 8px;
 }
 .navbar-toggler-icon{
-    filter: invert(0);
+    filter: invert(1);
 }
 .nav-icons{
     display: flex;
@@ -345,7 +345,6 @@ li{
 }
 .product-slider {
     position: relative;
-    margin: 20px;
 }
 .product-card .product-img {
     width: 100%;
@@ -562,67 +561,10 @@ li{
 }
 
 @media (max-width: 1200px){
-    .gtk-img {
-        width: 100%;
-        height: 400px;
-    }
-    .gtk-content {
-        padding: 20px 0px;
-    }
-    .gtk-content h2 {
-        font-size: 40px;
-        line-height: 1;
-    }
-    .gtk-content span {
-        font-size: 24px;
-    }
-    .sbc-heading h3 {
-        font-size: 40px;
-    }
-    .sbc-heading span {
-        font-size: 24px;
-    }
-    .sbc-content h3 {
-        font-size: 34px;
-    }
-    .testi-heading h3 {
-        font-size: 40px;
-    }
-    .org-content h3 {
-        font-size: 28px;
-    }
-    .cbd-content h3 {
-        font-size: 60px;
-    }
-    .cbd-content p {
-        font-size: 15px;
-    }
-    .faq-heading h3 {
-        font-size: 28px;
-    }
-    .faq-accordion-box .accordion-header button {
-        font-size: 16px;
-    }
-    .faq-accordion-box .accordion-body {
-        font-size: 13px;
-    }
-    .nl-content h3 {
-        font-size: 34px;
-    }
-    .banner-content h1, .inner-banner-content h1 {
-        font-size: 66px;
-    }
-    .banner-content a {
-        font-size: 20px;
-    }
-    .ba-img {
-        width: calc(100% + 20%);
-        height: calc(100% + 19%);
-        margin-left: -100px;
-        margin-top: -40px;
-    }
+    
+    
+    
    
-
 }
 
 @media (max-width: 991px){
@@ -640,50 +582,28 @@ li{
     .banner-content .common-para{
         width: 70%;
     }
-    .banner-content > span {
-        font-size: 24px;
-        width: 70%;
-    }
-    .banner-content a {
-        font-size: 24px;
-    }
     .common-btn {
-        padding: 4px 24px;
-    }
-    .gtk-img {
-        width: 100%;
-        height: auto;
+        padding: 4px 12px;
     }
     .common-section {
-        padding: 20px 0px;
+        padding: 40px 0px;
     }
-    .org-box {
-        min-height: 200px;
+    .common-box h3 {
+        font-size: 28px;
     }
-    .org-content {
-        width: 100%;
-        height: auto;
-        align-items: center;
-        justify-content: center;
+    .banner-content h3 {
+        font-size: 20px;
     }
-    /* .cbd-section {
-        min-height: auto;
-    } */
-    /* .cbd-content {
-        height: 300px;
-    } */
-    .faq-section::after {
-        width: 100%;
-    }
-    .faq-img {
-        display: none;
-    }
+
 }
 
 @media (max-width: 768px){
     .navbar-brand {
-        width: 150px;
-        height: 100%;
+        width: 70px;
+        height: 70px;
+    }
+    .banner-section {
+        min-height: 60vh;
     }
     .product-btns{
         flex-direction: row;
@@ -693,142 +613,81 @@ li{
         width: 100%;
         margin: 10px 0px;
     }
-    /* .banner-section {
-        min-height: 40vh;
-    } */
     .banner-content {
-        min-height: 40vh;
+        min-height: 60vh;
     }
     .banner-content h1 {
         font-size: 50px;
     }
-    .cbd-list {
-        grid-template-columns: repeat(1,1fr);
+    .abt-recd-box p {
+        font-size: 34px;
     }
-    .sbc-box {
+    .product-content span {
+        font-size: 13px;
+    }
+    .product-content h3 {
+        font-size: 15px;
+    }
+    .contact-list li a {
+        font-size: 15px;
+    }
+    .product-content {
+        min-height: auto;
         width: 100%;
-        height: auto;
-        border-radius: 10px;
-    }
-    .gtk-content span {
-        font-size: 20px;
-    }
-    .gtk-content h2 {
-        font-size: 34px;
-    }
-    .testi-heading h3 {
-        font-size: 34px;
-    }
-    .cbd-content h3 {
-        font-size: 34px;
-    }
-    .pop-container {
-        display: flex;
-        flex-direction: column;
-    }
-    .nl-content h3 {
-        font-size: 32px;
-    }
-    .nl-content {
-        width: 100%;
-    }
-    .footer-section .footer-top > .row > * {
-        margin-top: 0px;
-    }
-    .banner-slider.owl-carousel .owl-nav button.owl-prev, .banner-slider.owl-carousel .owl-nav button.owl-next {
-        padding: 4px;
-    }
-    .banner-slider.owl-carousel .owl-nav button.owl-prev i, .banner-slider.owl-carousel .owl-nav button.owl-next i {
-        font-size: 24px;
-    }
-    .banner-content .common-para {
-        width: 55%;
-    }
-    .ba-img {
-        width: calc(100% + 31%);
-        height: 100%;
-        margin-left: -106px;
-        margin-top: -20px;
     }
 }
 
 @media (max-width: 580px){
     .banner-content h1 {
         font-size: 40px;
-        color: #000;
-    }
-    .banner-content > span {
-        font-size: 24px;
-        width: 80%;
-    }
-    .sbc-heading h3 {
-        font-size: 34px;
-    }
-    .sbc-heading {
-        padding: 20px 0px;
-    }
-    .testi-heading h3 {
-        font-size: 28px;
-    }
-    .testi-heading a {
-        font-size: 16px;
-        padding: 4px 16px;
-    }
-    .cbd-img {
-        width: 100%;
-        height: auto;
-    }
-    .cbd-content {
-        width: 100%;
-    }
-    .nl-content h3 {
-        font-size: 24px;
-    }
-    .common-para {
-        font-family: 'Poppins',sans-serif;
-        font-weight: 400;
-        font-size: 13px;
-    }
-    .footer-logo {
-        width: 200px;
     }
     .banner-btn {
         flex-direction: column;
     }
-    /* .ba-img {
-        width: auto;
-    } */
-    .ba-content span {
-        font-size: 48px;
-    }
-    .ba-content h3 {
-        font-size: 68px;
-    }
     .banner-content {
-        min-height: 40vh;
+        min-height: 50vh;
     }
     .banner-section {
-        min-height: 65vh;
-    }
-    .cbd-content span {
-        font-size: 18px;
-    }
-    .cbd-content h3 {
-        font-size: 28px;
-    }
-    .pop-head h3 {
-        font-size: 38px;
+        min-height: 50vh;
     }
     .navbar-brand {
-        width: 100px;
-        height: 100%;
+        width: 60px;
+        height: 60px;
+        padding: 0px;
     }
-
-}
-@media (max-width: 330px){
-    .product-btns{
-        flex-direction: column;
+    .common-box h3 {
+        font-size: 20px;
     }
-    
-
+    .common-box > span {
+        font-size: 13px;
+    }
+    .abt-box h5 {
+        font-size: 16px;
+    }
+    .navbar.header-fixed .navbar-brand {
+        height: 50px;
+        width: 50px;
+    }
+    .footer-box .footer-box-para p {
+        font-size: 13px;
+    }
+    .footer-box-head h5 {
+        font-size: 16px;
+    }
+    .footer-list li a {
+        font-size: 13px;
+    }
+    .footer-copyright {
+        padding: 15px 0px;
+    }
+    .footer-copyright p {
+        margin-bottom: 0px;
+        font-size: 12px;
+    }
+    .footer-top {
+        padding: 20px 0px;
+    }
+    .common-box p {
+        line-height: 24px;
+    }
 }
