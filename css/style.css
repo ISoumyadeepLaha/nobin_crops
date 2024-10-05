@@ -116,6 +116,7 @@ li{
     position: fixed;
     bottom: 5%;
     right: 2%;
+    z-index: 999999;
     color: rgba(var(--white-color), 1);
     background: #008000;
     width: 50px;
